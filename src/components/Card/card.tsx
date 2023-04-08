@@ -5,7 +5,7 @@ export function Card() {
         <>
             <div className='w-80 h-2/2 rounded-2xl bg-slate-100 px-4 py-4 border-solid border-2 border-zinc-300
             vsm:w-72 vsm:m-6 vsm:p-4'>
-                <img src={QRCODE} className='rounded-xl' />
+                <img src={QRCODE} className='rounded-xl' alt='Qrcode in png'/>
 
                 <div className='flex flex-col justify-center items-center px-4 py-4'>
                     <h2 className='text-lg text-center my-1 font-bold font-sans'>Improve your front-end skills by building projects</h2>
